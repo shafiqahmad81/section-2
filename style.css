@@ -1,0 +1,89 @@
+
+/*==============================================================================                                  comon css style
+=============================================================================*/
+
+a:focus{
+    outline: 0 solid;
+}
+img{
+    max-width: 100%;
+    width: auto;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,body{
+    height: 100%;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+
+/* start css */
+
+
+.zigzag-text-bg-1{background-image: url(assets/img/img-03.jpg);}
+.zigzag-text-bg-2{background-image: url(assets/img/img-04.jpg);}
+
+.section-padding {
+    background-size: cover;
+    background-position: center;
+}
+
+.zigzag-text {
+    position: relative;
+    z-index: 2;
+    padding-right: 50px;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.zigzag-text:after {
+    position: absolute;
+    left: -4900%;
+    top: 0;
+    width: 5000%;
+    height: 100%;
+    background-color: #489d4b;
+    content: "";
+    z-index: -1;
+    transform: skew(10deg);
+    opacity: .9;
+}
+
+.boxed-btn {
+    background-color: #333;
+    display: inline-block;
+    color: #fff;padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+.zigzag-text-bg-2 .zigzag-text:after {
+    left: auto;
+    right: -4900%;
+}
+
+.zigzag-text-bg-2 .zigzag-text {
+    padding-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
